@@ -1,4 +1,4 @@
-# Abed Kazi — Digital Portfolio
+# Zakwan Farkande — Digital Portfolio
  
 A professional student digital portfolio built with pure HTML, CSS, and JavaScript.  
 Live at: `https://yourusername.github.io/portfolio/`
