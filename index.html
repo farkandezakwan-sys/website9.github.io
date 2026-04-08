@@ -1,72 +1,80 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="dark">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Zakwan Farkande — Digital Portfolio</title>
-<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<title>Zakwan Farkande Portfolio</title>
 
-<style>
-body { margin:0; font-family:'DM Sans',sans-serif; background:#0b0b0b; color:#fff; }
-nav { display:flex; justify-content:space-between; padding:1rem 2rem; background:#111; position:fixed; width:100%; }
-nav a { color:#aaa; margin:0 10px; text-decoration:none; }
-nav a:hover { color:#fff; }
-
-.hero { height:100vh; display:flex; flex-direction:column; justify-content:center; padding:2rem; }
-h1 { font-size:4rem; margin:0; }
-.btn { padding:10px 20px; background:#c8f03c; color:#000; text-decoration:none; margin-right:10px; }
-
-section { padding:80px 20px; }
-.card { background:#111; padding:20px; margin:10px 0; }
-
-.dark { background:#fff; color:#000; }
-</style>
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+<header>
+  <h1>Zakwan Farkande</h1>
+  <button onclick="toggleDark()">Toggle Dark Mode</button>
+</header>
+
 <nav>
-  <div><b>ZF.</b></div>
-  <div>
-    <a href="#about">About</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
-  </div>
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#achievements">Achievements</a>
+  <a href="#projects">Projects</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#contact">Contact</a>
 </nav>
 
-<div class="hero">
-  <h1>Zakwan<br>Farkande</h1>
-  <p>Engineering student passionate about AI & science.</p>
-  <div>
-    <a href="#projects" class="btn">Projects</a>
-    <button onclick="toggleTheme()">Toggle Theme</button>
-  </div>
-</div>
+<section id="home">
+  <img src="assets/photo.jpg" alt="Profile" class="profile">
+  <h2>Hello, I'm Zakwan</h2>
+  <p>Engineering student passionate about AI and technology.</p>
+</section>
 
 <section id="about">
   <h2>About Me</h2>
-  <p>B.Tech student at MIT Vishwaprayag University.</p>
-  <p>Interests: AI, Physics, Chemistry</p>
+  <p><b>Education:</b> MIT Vishwaprayag University</p>
+  <p><b>Interests:</b> AI, Web Development</p>
+  <p><b>Goals:</b> Become a skilled developer</p>
+  <p><b>Strengths:</b> Problem solving, teamwork</p>
+</section>
+
+<section id="achievements">
+  <h2>Achievements</h2>
+  <ul>
+    <li>AI4A Project</li>
+    <li>Design Thinking Project</li>
+    <li>ACE Project</li>
+    <li>Coursera Certificates</li>
+    <li>NetAcad Certificate</li>
+    <li>Yuva AI Certificate</li>
+  </ul>
 </section>
 
 <section id="projects">
   <h2>Projects</h2>
   <div class="card">
-    <h3>AI4A Project</h3>
-    <p>Description here</p>
+    <img src="assets/project1.jpg">
+    <p>Project description</p>
+    <a href="#">View Project</a>
   </div>
+</section>
+
+<section id="gallery">
+  <h2>Gallery</h2>
+  <img src="assets/cert1.jpg">
+  <img src="assets/cert2.jpg">
 </section>
 
 <section id="contact">
   <h2>Contact</h2>
   <p>Email: your@email.com</p>
+  <p>Phone: +91XXXXXXXXXX</p>
 </section>
 
-<script>
-function toggleTheme(){
-  document.body.classList.toggle("dark");
-}
-</script>
+<footer>
+  <p>© 2026 Zakwan Farkande</p>
+</footer>
 
+<script src="script.js"></script>
 </body>
 </html>
