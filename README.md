@@ -1,89 +1,138 @@
 # Zakwan Farkande — Digital Portfolio
- 
-A professional student digital portfolio built with pure HTML, CSS, and JavaScript.  
+
+A professional student digital portfolio built using **HTML, CSS, and JavaScript**.
 Live at: `https://yourusername.github.io/portfolio/`
- 
+
 ---
- 
+
 ## 🗂️ Folder Structure
- 
+
 ```
 portfolio/
-├── index.html          ← Main portfolio file (all-in-one)
+├── index.html
 ├── README.md
-└── assets/             ← All images go here
-    ├── photo.jpg                    ← Your passport/profile photo
-    ├── cert-coursera-physics.jpg    ← Coursera Engineering Physics certificate
-    ├── cert-coursera-chemistry.jpg  ← Coursera Chemistry certificate
-    ├── cert-netacad-ai.jpg          ← Cisco NetAcad Modern AI certificate
-    ├── cert-yuva-ai.jpg             ← TCS iON Yuva AI for All certificate
-    ├── cert-skillspardha.jpg        ← SkillSpardha workshop certificate
-    ├── event-ai4a.jpg               ← AI for All (Ai4A) event photo
-    ├── event-design-thinking.jpg    ← Design Thinking workshop photo
-    └── event-ace.jpg                ← ACE project photo
+└── assets/
+    ├── photo.jpg
+    ├── cert-coursera-physics.jpg
+    ├── cert-coursera-chemistry.jpg
+    ├── cert-netacad-ai.jpg
+    ├── cert-yuva-ai.jpg
+    ├── cert-skillspardha.jpg
+    ├── event-ai4a.jpg
+    ├── event-design-thinking.jpg
+    └── event-ace.jpg
 ```
- 
+
 ---
- 
-## 🚀 How to Deploy on GitHub Pages
- 
-1. **Create a new GitHub repository** named `portfolio` (or any name you like).
- 
-2. **Upload all files** — drag and drop `index.html` and the `assets/` folder into your repo.
- 
-3. **Enable GitHub Pages:**
-   - Go to your repo → **Settings** → **Pages**
-   - Under *Source*, select **Deploy from a branch**
-   - Choose `main` branch → `/ (root)` → **Save**
- 
-4. Your site will be live at:  
-   `https://yourusername.github.io/portfolio/`
- 
+
+## 🚀 Deployment (GitHub Pages)
+
+1. Create a repository (recommended name: `portfolio`)
+
+2. Upload:
+
+   * `index.html`
+   * `assets/` folder
+   * `README.md`
+
+3. Go to:
+   **Settings → Pages**
+
+4. Set:
+
+   * Source → `Deploy from a branch`
+   * Branch → `main`
+   * Folder → `/ (root)`
+
+5. Your site will be live at:
+
+   ```
+   https://yourusername.github.io/portfolio/
+   ```
+
 ---
- 
-## ✅ Sections Included
- 
-| Section | Details |
-|---|---|
-| 🏠 Home (Hero) | Name, photo, short intro, CTA buttons |
-| 👤 About Me | Education, interests, goals, strengths, stats |
-| 🏆 Achievements | Coursera, NetAcad, TCS Yuva AI, SkillSpardha · tabbed layout |
-| 📁 Projects | Ai4A, Design Thinking, ACE, CyberCorp Validator, Student Records Manager |
-| 💡 Skills | Categorised tags + animated progress bars |
-| 🖼️ Gallery | All photos & certificates with filter + lightbox |
-| 📬 Contact | Email, phone, GitHub, LinkedIn + contact form |
- 
+
+## 📌 Sections Included
+
+* **Home** → Name, intro, CTA
+
+* **About Me** → Education, interests, strengths
+
+* **Achievements** →
+
+  * AI4A Project
+  * Design Thinking
+  * ACE Project
+  * Coursera Certificates
+  * NetAcad Certificate
+  * Yuva AI Certificate
+
+* **Projects** → With descriptions + links
+
+* **Skills** → Categorised + animated bars
+
+* **Gallery** → Certificates + event photos
+
+* **Contact** → Email, phone, GitHub, LinkedIn
+
 ---
- 
-## ✨ Extra Features
- 
-- **Dark / Light mode toggle** (saved in localStorage)
-- **Scroll reveal animations** (IntersectionObserver)
-- **Animated skill progress bars** (trigger on scroll)
-- **Tabbed achievements** (Certificates / Events / Academic Projects)
-- **Gallery with category filter + lightbox**
-- **Responsive design** — works on mobile, tablet, desktop
- 
+
+## ✨ Features
+
+* Dark / Light mode toggle (saved in browser)
+* Scroll animations (IntersectionObserver)
+* Animated skill bars
+* Tab-based achievements section
+* Gallery filter + lightbox
+* Fully responsive design
+
 ---
- 
+
 ## 🖼️ Adding Your Images
- 
-1. Export/scan your certificates as `.jpg` files
-2. Name them exactly as shown in the folder structure above
-3. Place them in the `assets/` folder
-4. Your profile photo from `Photo_.pdf` should be saved as `assets/photo.jpg`
- 
+
+* Store all images inside `assets/`
+* Use **clear filenames**
+* Example:
+
+  * `photo.jpg`
+  * `cert-coursera-physics.jpg`
+
+Do NOT:
+
+* leave broken image links
+* upload PDFs instead of images
+
 ---
- 
-## 📞 Contact Info to Update
- 
-Open `index.html` and search for these placeholders and replace them:
- 
-- `abedkazi@example.com` → your actual email
-- `+91 XXXX XXX XXX` → your phone number
-- `github.com/abedkazi` → your real GitHub URL
-- `linkedin.com/in/abedkazi` → your real LinkedIn URL
- 
+
+## 📞 Update Your Details (IMPORTANT)
+
+Search inside `index.html` and replace:
+
+* `your@email.com`
+* `+91XXXXXXXXXX`
+* `https://github.com/yourusername`
+* `https://linkedin.com/in/yourprofile`
+
+If you skip this → portfolio looks fake.
+
 ---
- 
-Built with ❤️ using HTML, CSS & JavaScript · No frameworks · No build tools
+
+## ⚠️ Common Mistakes
+
+* Repo name mismatch → site won’t load
+* Missing `assets/` folder → images won’t show
+* Wrong file paths → broken UI
+* Leaving template data → obvious copy
+
+---
+
+## 📌 Submission Info
+
+* Name: Zakwan Farkande
+* PRN No: YOUR_PRN
+* GitHub Repo: https://github.com/yourusername/portfolio
+
+---
+
+Built using pure HTML, CSS, and JavaScript
+No frameworks. No shortcuts.
